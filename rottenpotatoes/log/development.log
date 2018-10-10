@@ -1291,3 +1291,13 @@ Processing by MoviesController#index as HTML
   [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
   Rendered movies/index.html.haml within layouts/application (4.3ms)
 Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 165.91.13.2 at 2018-10-10 18:51:32 +0000
+
+
+Started GET "/movies" for 165.91.13.2 at 2018-10-10 18:51:32 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (17.9ms)
+Completed 200 OK in 216ms (Views: 185.5ms | ActiveRecord: 1.3ms)
