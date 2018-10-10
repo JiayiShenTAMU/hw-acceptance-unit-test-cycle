@@ -992,3 +992,22 @@ Started GET "/assets/rails.png" for 50.24.36.239 at 2018-10-05 04:35:14 +0000
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/assets/rails.png" for 50.24.36.239 at 2018-10-10 06:09:35 +0000
+
+
+Started GET "/" for 50.24.36.239 at 2018-10-10 06:09:53 +0000
+
+
+Started GET "/movies" for 50.24.36.239 at 2018-10-10 06:09:53 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (18.9ms)
+Completed 200 OK in 354ms (Views: 325.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-2b9b4ceb35a4568bfbe3001eb6cf7d691787c8ec9b2018eecbc3c235cc74b7a4.css?body=1" for 50.24.36.239 at 2018-10-10 06:09:54 +0000
+
+
+Started GET "/assets/application.self-ac4347b135ab8935f2dd20089f2acc8bec1d6b2ad528a80fcb03cd445dbd4d27.js?body=1" for 50.24.36.239 at 2018-10-10 06:09:54 +0000
